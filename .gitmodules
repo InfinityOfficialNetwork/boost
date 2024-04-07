@@ -420,7 +420,7 @@
 	branch = .
 [submodule "unordered"]
 	path = libs/unordered
-	url = https://www.github.com/vinniefalco/unordered.git
+	url = https://github.com/boostorg/unordered.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "signals2"]
@@ -455,7 +455,7 @@
 	branch = .
 [submodule "predef"]
 	path = libs/predef
-	url = https://www.github.com/vinniefalco/predef.git
+	url = https://github.com/boostorg/predef.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "chrono"]
@@ -553,11 +553,6 @@
 	url = https://github.com/boostorg/lockfree.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
-[submodule "sync"]
-	path = libs/sync
-	url = https://github.com/boostorg/sync.git
-	fetchRecurseSubmodules = on-demand
-	branch = .
 [submodule "assert"]
 	path = libs/assert
 	url = https://github.com/boostorg/assert.git
@@ -640,7 +635,7 @@
 	branch = .
 [submodule "qvm"]
 	path = libs/qvm
-	url = https://www.github.com/vinniefalco/qvm.git
+	url = https://github.com/boostorg/qvm.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "fiber"]
@@ -670,7 +665,7 @@
 	branch = .
 [submodule "mp11"]
 	path = libs/mp11
-	url = https://www.github.com/vinniefalco/mp11.git
+	url = https://github.com/boostorg/mp11.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
 [submodule "callable_traits"]
@@ -806,5 +801,30 @@
 [submodule "mysql"]
 	path = libs/mysql
 	url = https://github.com/boostorg/mysql.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "compat"]
+	path = libs/compat
+	url = https://github.com/boostorg/compat.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "redis"]
+	path = libs/redis
+	url = https://github.com/boostorg/redis.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "cobalt"]
+	path = libs/cobalt
+	url = https://github.com/boostorg/cobalt.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "charconv"]
+	path = libs/charconv
+	url = https://github.com/boostorg/charconv.git
+	fetchRecurseSubmodules = on-demand
+	branch = .
+[submodule "scope"]
+	path = libs/scope
+	url = https://github.com/boostorg/scope.git
 	fetchRecurseSubmodules = on-demand
 	branch = .
