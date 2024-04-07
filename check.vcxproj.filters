@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\source\InfinityOfficialNetwork\boostorg-boost\CMakeFiles\bb2d2f55585e7b9e6d5d22c20782badc\check.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\source\InfinityOfficialNetwork\boostorg-boost\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\source\InfinityOfficialNetwork\boostorg-boost\CMakeFiles\check" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0DC458CB-C348-3A29-96DE-97AAB5BDAD0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
