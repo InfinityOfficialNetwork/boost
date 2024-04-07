@@ -1,0 +1,249 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"boost_install",
+			"boost_install_target"
+		],
+		"files" : 
+		[
+			"tools/cmake/include/BoostInstall.cmake",
+			"libs/serialization/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 9
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/serialization/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_serialization-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_serialization::@1226bfb98d8ec9a7b477",
+			"targetIndex" : 23,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_serialization-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_serialization-1.85.0",
+			"exportName" : "boost_serialization-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_serialization::@1226bfb98d8ec9a7b477",
+					"index" : 23
+				}
+			],
+			"paths" : 
+			[
+				"libs/serialization/CMakeFiles/Export/ea80e2732e0638494b9fccd4b7c8c31f/boost_serialization-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_serialization-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/serialization/tmpinst/boost_serialization-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_serialization-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/serialization/tmpinst/boost_serialization-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_wserialization-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_wserialization::@1226bfb98d8ec9a7b477",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_wserialization-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_wserialization-1.85.0",
+			"exportName" : "boost_wserialization-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_wserialization::@1226bfb98d8ec9a7b477",
+					"index" : 35
+				}
+			],
+			"paths" : 
+			[
+				"libs/serialization/CMakeFiles/Export/5c09ff8cef6afb49226e1ce9b67becc1/boost_wserialization-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_wserialization-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/serialization/tmpinst/boost_wserialization-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_wserialization-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/serialization/tmpinst/boost_wserialization-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/serialization",
+		"source" : "libs/serialization"
+	}
+}

@@ -1,0 +1,543 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"boost_install",
+			"stacktrace_add_library",
+			"boost_install_target"
+		],
+		"files" : 
+		[
+			"tools/cmake/include/BoostInstall.cmake",
+			"libs/stacktrace/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 29
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 31
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/stacktrace/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_stacktrace_noop-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_stacktrace_noop::@700ff2b29570ca9b3e20",
+			"targetIndex" : 25,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_stacktrace_noop-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_noop-1.85.0",
+			"exportName" : "boost_stacktrace_noop-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_stacktrace_noop::@700ff2b29570ca9b3e20",
+					"index" : 25
+				}
+			],
+			"paths" : 
+			[
+				"libs/stacktrace/CMakeFiles/Export/205d864420ac0d3dc81c3703e61e9da2/boost_stacktrace_noop-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_noop-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_noop-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_noop-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_noop-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/stacktrace/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_stacktrace_basic-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_stacktrace_basic::@700ff2b29570ca9b3e20",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_stacktrace_basic-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_basic-1.85.0",
+			"exportName" : "boost_stacktrace_basic-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_stacktrace_basic::@700ff2b29570ca9b3e20",
+					"index" : 24
+				}
+			],
+			"paths" : 
+			[
+				"libs/stacktrace/CMakeFiles/Export/f2ac892e0cc8ef3de53f038d46665976/boost_stacktrace_basic-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_basic-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_basic-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_basic-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_basic-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/stacktrace/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_stacktrace_windbg-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_stacktrace_windbg::@700ff2b29570ca9b3e20",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_stacktrace_windbg-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg-1.85.0",
+			"exportName" : "boost_stacktrace_windbg-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_stacktrace_windbg::@700ff2b29570ca9b3e20",
+					"index" : 26
+				}
+			],
+			"paths" : 
+			[
+				"libs/stacktrace/CMakeFiles/Export/49202f78fd4fc6f701f4eb1fd5dd4ea7/boost_stacktrace_windbg-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_windbg-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_windbg-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/stacktrace/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_stacktrace_windbg_cached-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_stacktrace_windbg_cached::@700ff2b29570ca9b3e20",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_stacktrace_windbg_cached-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg_cached-1.85.0",
+			"exportName" : "boost_stacktrace_windbg_cached-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_stacktrace_windbg_cached::@700ff2b29570ca9b3e20",
+					"index" : 27
+				}
+			],
+			"paths" : 
+			[
+				"libs/stacktrace/CMakeFiles/Export/eef4bb4da028dded41448dad4d013172/boost_stacktrace_windbg_cached-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg_cached-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_windbg_cached-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_stacktrace_windbg_cached-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/stacktrace/tmpinst/boost_stacktrace_windbg_cached-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/stacktrace",
+		"source" : "libs/stacktrace"
+	}
+}

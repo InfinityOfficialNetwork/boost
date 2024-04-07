@@ -1,0 +1,532 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"boost_install",
+			"boost_install_target"
+		],
+		"files" : 
+		[
+			"tools/cmake/include/BoostInstall.cmake",
+			"libs/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 268,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 283,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 465,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 287,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 29
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/boost-1_85",
+			"paths" : 
+			[
+				{
+					"from" : "libs/test/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_prg_exec_monitor-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_prg_exec_monitor::@a45470efca5f1a43b690",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_prg_exec_monitor-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_prg_exec_monitor-1.85.0",
+			"exportName" : "boost_prg_exec_monitor-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_prg_exec_monitor::@a45470efca5f1a43b690",
+					"index" : 20
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/555317d3074e0e4c612d08fdc221b6a3/boost_prg_exec_monitor-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_prg_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_prg_exec_monitor-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_prg_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_prg_exec_monitor-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_test_exec_monitor-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_test_exec_monitor::@a45470efca5f1a43b690",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_test_exec_monitor-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_test_exec_monitor-1.85.0",
+			"exportName" : "boost_test_exec_monitor-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_test_exec_monitor::@a45470efca5f1a43b690",
+					"index" : 28
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/3baabbc5f84d95de22ee8f4e3ac91671/boost_test_exec_monitor-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_test_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_test_exec_monitor-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_test_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_test_exec_monitor-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"stage/lib/libboost_unit_test_framework-vc143-mt-gd-x64-1_85.lib"
+			],
+			"targetId" : "boost_unit_test_framework::@a45470efca5f1a43b690",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/stage/lib/libboost_unit_test_framework-vc143-mt-gd-x64-1_85.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_unit_test_framework-1.85.0",
+			"exportName" : "boost_unit_test_framework-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_unit_test_framework::@a45470efca5f1a43b690",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/5afdd712cca47c55b73ecdeee37b1a84/boost_unit_test_framework-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_unit_test_framework-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_unit_test_framework-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_unit_test_framework-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_unit_test_framework-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_prg_exec_monitor-1.85.0",
+			"exportName" : "boost_included_prg_exec_monitor-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_included_prg_exec_monitor::@a45470efca5f1a43b690",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/7a90d6ce07b654254e8eefe5e01b3cc2/boost_included_prg_exec_monitor-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_prg_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_prg_exec_monitor-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_prg_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_prg_exec_monitor-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_test_exec_monitor-1.85.0",
+			"exportName" : "boost_included_test_exec_monitor-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_included_test_exec_monitor::@a45470efca5f1a43b690",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/e85a65b2025c1db6d6bfeb11ef494283/boost_included_test_exec_monitor-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_test_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_test_exec_monitor-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_test_exec_monitor-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_test_exec_monitor-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_unit_test_framework-1.85.0",
+			"exportName" : "boost_included_unit_test_framework-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "boost_included_unit_test_framework::@a45470efca5f1a43b690",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"libs/test/CMakeFiles/Export/bc9e016700320e76868533d9c91ea1b8/boost_included_unit_test_framework-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_unit_test_framework-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_unit_test_framework-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/boost_included_unit_test_framework-1.85.0",
+			"paths" : 
+			[
+				"out/build/x64-Debug/libs/test/tmpinst/boost_included_unit_test_framework-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/test",
+		"source" : "libs/test"
+	}
+}
