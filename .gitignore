@@ -13,3 +13,5 @@
 /.settings/
 /.project
 /.pydevproject
+/.vs
+/out/build/x64-Debug/CMakeFiles
